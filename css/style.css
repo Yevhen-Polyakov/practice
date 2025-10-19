@@ -753,6 +753,22 @@ img{
     margin-bottom: 16px;
 }
 
+.soc-networks{
+    display: flex;
+    gap: 16px;
+    padding-top: 18px;
+}
+
+.soc-network-wrap{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #EDFFFC;
+    border-radius: 50%;
+    max-width: 40px;
+    padding: 8px;
+}
+
 .footer-info{
     display: flex;
     gap: 153px;
@@ -791,7 +807,7 @@ img{
 
 .footer-form-input{
     max-width: 325px;
-    padding: 10px 42px;
+    padding: 10px 42px 10px 42px;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     outline-color: #02897A;
@@ -799,6 +815,20 @@ img{
 
 .footer-form-input::placeholder{
     color: #02897A;
+}
+
+.input-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.input-icon{
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #02897A;
+    pointer-events: none;
 }
 
 .form-footer{
@@ -816,5 +846,4 @@ img{
     color: #fff;
     line-height: 1;
     max-width: 131px;
-
 }
