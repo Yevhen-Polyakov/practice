@@ -159,10 +159,16 @@ img{
     align-items: center;
 }
 
+.hero-icon{
+    fill: #02897A;
+    border-radius: 2px;
+}
 
 .hero-btn{
     border-radius: 4px;
     font-size: 16px;
+    display: flex;
+    gap: 8px;
     
 }
 
@@ -178,12 +184,28 @@ img{
 
 .watch-btn{
     font-family: "Poppins", sans-serif;
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     line-height: 1;
     letter-spacing: 0;
     color: #02897A;
     text-decoration: underline;
     background: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.watch-btn:focus .hero-icon,
+.watch-btn:hover .hero-icon{
+    fill: #fff;
+}
+
+.watch-btn:hover{
+    background-color: #02897A;
+    color: #fff;
+   
 }
 
 /*=Specifically=*/
@@ -208,6 +230,14 @@ img{
     border-radius: 19px;
     width: 54px;
     height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cursor-icon{
+    fill: #fff;
 }
 
 .green{
