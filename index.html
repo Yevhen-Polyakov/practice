@@ -519,5 +519,47 @@
         </div>  
     </footer>
   <!--#endFooter-->  
+
+  <!--#regionModal-->
+        <div class="modal-overlay is-open">
+            <div class="modal-window">
+                <button class="modal-close-btn" type="button">
+                    <svg width="8" height="8" viewport="0 0 0 8 8">
+                        <use href="./images/icon.svg#close"></use>
+                    </svg>
+                </button>
+                <h3 class="message-form-title">Send a message</h3>
+
+                <form class="modal-form">
+                    <label>
+                        <input 
+                            class="modal-form-input"
+                            type="text" 
+                            name="user-name"
+                            placeholder="Your Name">
+                    </label>
+                    <label>
+                        <input 
+                            class="modal-form-input"
+                            type="email" 
+                            name="user-phone"
+                            placeholder="Your Email">
+                    </label>
+
+                    <label>
+                        <textarea 
+                            class="modal-textarea"
+                            name="user-comment" 
+                            id="user-comment"
+                            placeholder="Your Message"></textarea>
+                    </label>
+                    <button class="form-modal-btn" type="submit">Send</button>
+
+                </form>
+            </div>
+            
+        </div>
+
+    <!--#endModal-->
 </body>
 </html>
