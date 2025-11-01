@@ -92,7 +92,7 @@
 
 .modal-form-input:focus{
     outline: none;
-    border-color: #02897a;
+    border-color: #028979;
     box-shadow: 0 0 0 3px rgba(2, 137, 122, 0.1);
 }
 
@@ -121,3 +121,11 @@
     color: #22343d;
 }
 
+.modal-form-input:hover::placeholder,
+.modal-textarea:hover::placeholder{
+    opacity: 0.3;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
