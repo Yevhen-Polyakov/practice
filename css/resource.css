@@ -1,0 +1,117 @@
+/*===res-hero===*/
+
+.resource-hero{
+    padding-top: 76px;
+    margin-bottom: 66px;
+}
+
+.res-hero-wrap{
+    display: flex;
+    gap: 46px;
+}
+
+.res-hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.res-hero-title{
+    max-width: 380px;
+    font-weight: 600;
+    font-size: 40px; 
+    line-height: 1.49;
+    letter-spacing: -0.03em;
+    color: #22343d
+}
+
+.res-hero-desc{
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 1.6;
+    letter-spacing: -0.03em;
+    color: #22343d; 
+    max-width: 450px;
+}
+
+.res-hero-form{
+    position: relative;
+}
+
+.res-form-input{
+    border: 1px solid #eaeaea;
+    border-radius: 100px;
+    width: 400px;
+    height: 66px;
+    padding-left: 27.1px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.res-form-input:focus{
+    outline: none;
+    border-color: #02897a;
+    box-shadow: 0 0 0 3px rgba(2, 137, 122, 0.1);
+}
+
+
+.res-form-input::placeholder{
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #22343d;
+    margin-right: 138px;
+}
+
+.res-hero-form-btn{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 100px;
+    padding:  22px;
+    width: 117px;
+    height: 50px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 16px; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.res-hero-form-btn:hover{
+    background-color: #026b5f;
+    transform: translateY(-50%) scale(1.02);
+}
+
+.res-hero-user-wrap{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.res-hero-user-info{
+    font-size: 14px;
+    color: #22343d;
+}
+
+.res-hero-user-number{
+   font-weight: 500;
+    color: #02897a; 
+}
+
+/*===Stories===*/
+
+.stories-text-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+ 

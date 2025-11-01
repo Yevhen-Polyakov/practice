@@ -1,0 +1,52 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+.container{
+  width: 1150px;
+  padding: 0 15px;  
+  margin: 0 auto;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+} 
+
+.tx-center{
+    text-align: center;
+}
