@@ -3,26 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Resources</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.png" alt="Product"></a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resources.html">Resources</a></li>
+     <!---#regionHeader-->
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <a class="nav-log" href="./index.html"><img src="./images/logo.png" alt="Product">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./customers.html">Customers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <ul class="header-btn-list">
+                <li class="header-btn-item"><button class="header-btn sign-in" type="button">Sign In</button></li>
+                <li class="header-btn-item"><button class="header-btn sign-up" type="button">Sign Up</button></li>
             </ul>
-        </nav>
-        <ul>
-            <li><button>Sign In</button></li>
-            <li><button>Sign Up</button></li>
-        </ul>
-        
+        </div>
     </header>
-    
+    <!--#endregion-->
+
+    <main>
+        <!--#regionResoursehero-->
+        <section class="resource-hero">
+            <div class="container">
+                <div class="res-hero-wrap">
+                    <div class="res-hero-info">
+                        <h1 class="res-hero-title">Great Business made with Product.</h1>
+                        <p class="res-hero-desc">
+                            Build better customer relationships easily messaging that provides a more personal experience for you and your customers.
+                        </p>
+
+                        <form class="res-hero-form">
+                            <label>
+                                <input class="res-form-input" type="email" placeholder="Enter your email adress">
+                            </label>
+                            <button class="res-hero-form-btn" type="submit">Join Now</button>
+                        </form>
+
+                        <div class="res-hero-user-wrap">
+                            <img src="./images/resource/res-user-1.png" 
+                                 srcset="./images/resource/res-user-1.png 1x, ./images/resource/res-usr@2x.png 2x" 
+                                 alt="users">
+                                 <p class="res-hero-user-info">Join over <span class="res-hero-user-number">4,000</span>+ other</p>
+                        </div>
+                    </div>
+
+                    <img 
+                        class="res-bg-hero" 
+                        src="./images/resource/res-hero-bg-1.png"
+                        srcset="./images/resource/res-hero-bg-1.png 1x, ./images/resource/res-hero-bg@2x.png 2x" 
+                        alt="graphic">
+                </div>
+            </div>
+
+        </section>
+        <!--#endResoursehero-->
+
+        <!--#regionStories-->
+        <section class="stories">
+            <div class="container">
+                <div class="stories-text-wrap">
+                    <h2 class="stories-title">Latest Stories</h2>
+                    <p class="stories-text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                </div>
+
+                <ul class="stories-card-list">
+                    <li class="stories-card-item">
+                        <img class="strategy-img" src="" alt="">
+                        <div class="strategy-text-wrap">
+                            <p class="management-desc mb-12">By <span class="management-desc bold">Wahid Ari</span> |  03 March 2019</p>
+                            <p class="strategy-desc">Increasing Prosperity With Positive Thinking</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <!--#endStories-->
+
+    </main>
     
     
 </body>
