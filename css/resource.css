@@ -65,7 +65,7 @@
 .res-hero-form-btn{
     position: absolute;
     top: 50%;
-    right: 30px;
+    right: 58px;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
@@ -106,7 +106,9 @@
 }
 
 /*===Stories===*/
-
+.stories{
+    margin-bottom: 14px;
+}
 .stories-text-wrap{
     display: flex;
     flex-direction: column;
@@ -114,4 +116,73 @@
     text-align: center;
     margin-bottom: 32px;
 }
+
+.stories-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 32px;
+}
  
+.stories-card-item{
+    width: calc((100% - 64px) / 3);
+    max-width: 348px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+}
+
+.stories-string-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.stories-string{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #22343d; 
+}
+
+.stories-icon{
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.stories-string-wrap:hover .stories-icon{
+    transform: scale(1.1);
+
+}
+
+/*===Contact===*/
+.contact{
+    padding: 70px 0px 50px 0px;
+}
+
+.contact-info-wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.contact-title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.001em;
+    color: #252b42;
+}
+
+.contact-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #374754;
+    width: 300px;
+}
